@@ -28,7 +28,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://drfapiprojects.onrender.com/projectcards/',
+]
 
 RENDER_EXRERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME') 
 if RENDER_EXRERNAL_HOSTNAME: ALLOWED_HOSTS.append(RENDER_EXRERNAL_HOSTNAME)
@@ -83,6 +85,7 @@ WSGI_APPLICATION = 'apiDevDavidG.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3030',
+    'https://drfapiprojects.onrender.com/projectcards/'
 ]
 
 
