@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = [
-    'https://drfapiprojects.onrender.com/projectcards/',
+    'https://drfapiprojects.onrender.com',
 ]
 
 RENDER_EXRERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME') 
