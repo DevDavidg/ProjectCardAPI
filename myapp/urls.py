@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import ProjectCardAPI
+from .views import ProjectCardList
 
 urlpatterns = [
-    path('projectcards/', ProjectCardAPI.as_view(), name='projectcard-api'),
+    path('projectcards/', ProjectCardList.as_view(), name='projectcard-api'),
 ]
