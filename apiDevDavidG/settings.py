@@ -80,6 +80,7 @@ WSGI_APPLICATION = 'apiDevDavidG.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3030',
+    'http://192.168.1.6:3030'
 ]
 
 
