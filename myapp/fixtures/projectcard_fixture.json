@@ -93,5 +93,19 @@
       "cardLang": ["Figma"],
       "isDesign": true
     }
+  },
+  {
+    "model": "myapp.projectcard",
+    "pk": 7,
+    "fields": {
+      "demoUrl": "https://drfapiprojects.onrender.com/projectcards/",
+      "github": "https://github.com/DevDavidg/ProjectCardAPI",
+      "title": "Project Card API",
+      "gif": "https://i.imgur.com/q7qsIFd.png",
+      "description": "Is a list of projects that I have done",
+      "icons": ["Django", "DRF", "Python"],
+      "cardLang": ["Django", "DRF", "Python"],
+      "isDesign": false
+    }
   }
 ]
