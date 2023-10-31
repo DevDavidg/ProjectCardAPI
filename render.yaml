@@ -1,0 +1,20 @@
+databases:
+  - name: apiDevDavidG
+    databaseName: apiDevDavidG
+    user: apiDevDavidG
+
+services:
+  - type: web
+    name: apiDevDavidG
+    runtime: python
+    buildCommand: './build.sh'
+    startCommand: 'gunicorn apiDevDavidG.wsgi:application'
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: apiDevDavidG
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
