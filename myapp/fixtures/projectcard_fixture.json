@@ -61,7 +61,7 @@
       "demoUrl": "https://devdavidg.github.io/Portfolio/",
       "github": "",
       "title": "Portfolio",
-      "gif": "https://i.imgur.com/Y0dDyIS.gifv",
+      "gif": "https://i.imgur.com/tN0RJAq.mp4",
       "description": "This is my portfolio",
       "icons": ["HTML", "CSS", "JS", "Firebase"],
       "cardLang": ["HTML", "CSS", "JS", "Firebase"]
@@ -74,7 +74,7 @@
       "demoUrl": "",
       "github": "",
       "title": "SkyBlue Analytics",
-      "gif": "https://i.imgur.com/vB2JULt.gifv",
+      "gif": "https://i.imgur.com/VX1GdTz.mp4",
       "description": "SkyBlue Analytics is a company that provides data analysis services",
       "icons": ["Vue", "TS", "Sass", "Quasar"],
       "cardLang": ["Vue", "TS", "Sass", "Quasar"]
@@ -129,7 +129,7 @@
       "demoUrl": "https://kanban-id.web.app/",
       "github": "https://github.com/DevDavidg/kanban-david",
       "title": "Kanban David",
-      "gif": "https://i.imgur.com/qU9oT3c.gifv",
+      "gif": "https://i.imgur.com/zzOku1d.mp4",
       "description": "It is a kanban where you can create, edit and delete tasks",
       "icons": ["Angular", "TS", "Sass", "Firebase"],
       "cardLang": ["Angular", "TS", "Sass", "Firebase"],
