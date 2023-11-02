@@ -63,8 +63,8 @@
       "title": "Portfolio",
       "gif": "https://i.imgur.com/Y0dDyIS.gifv",
       "description": "This is my portfolio",
-      "icons": ["HTML", "CSS", "JS"],
-      "cardLang": ["HTML", "CSS", "JS"]
+      "icons": ["HTML", "CSS", "JS", "Firebase"],
+      "cardLang": ["HTML", "CSS", "JS", "Firebase"]
     }
   },
   {
@@ -105,6 +105,34 @@
       "description": "Is a list of projects that I have done",
       "icons": ["Django", "DRF", "Python"],
       "cardLang": ["Django", "DRF", "Python"],
+      "isDesign": false
+    }
+  },
+  {
+    "model": "myapp.projectcard",
+    "pk": 8,
+    "fields": {
+      "demoUrl": "https://minitraingame.web.app/",
+      "github": "https://github.com/DevDavidg/Mini-Train",
+      "title": "Mini Train Game",
+      "gif": "https://i.imgur.com/q7qsIFd.png",
+      "description": "It is a game where you have to park the train at the station",
+      "icons": ["CoffeeScript", "HAML", "CSS", "JS", "HTML", "Firebase"],
+      "cardLang": ["CoffeeScript", "HAML", "CSS", "JS", "HTML", "Firebase"],
+      "isDesign": false
+    }
+  },
+  {
+    "model": "myapp.projectcard",
+    "pk": 9,
+    "fields": {
+      "demoUrl": "https://kanban-id.web.app/",
+      "github": "https://github.com/DevDavidg/kanban-david",
+      "title": "Kanban David",
+      "gif": "https://i.imgur.com/q7qsIFd.png",
+      "description": "It is a kanban where you can create, edit and delete tasks",
+      "icons": ["Angular", "TS", "Sass", "Firebase"],
+      "cardLang": ["Angular", "TS", "Sass", "Firebase"],
       "isDesign": false
     }
   }
