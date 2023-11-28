@@ -169,7 +169,7 @@
     "pk": 12,
     "fields": {
       "demoUrl": "https://sphere-app.vercel.app/",
-      "github": "",
+      "github": "https://github.com/DevDavidg/sphere-app",
       "title": "Sphere With Physics",
       "gif": "https://i.imgur.com/ugVaIo0.mp4",
       "description": "Sphere With Physics is a sphere that has physics",
