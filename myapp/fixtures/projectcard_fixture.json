@@ -47,9 +47,9 @@
     "fields": {
       "demoUrl": "",
       "github": "",
-      "title": "Claro GDL",
+      "title": "Claro Portal",
       "gif": "https://i.imgur.com/W4kiltT.png",
-      "description": "Claro AR/UR/PY line management portal",
+      "description": "Claro line management portal",
       "icons": ["React", "TS", "StyledComponents", "Jenkins", "Jest"],
       "cardLang": ["React", "TS", "Jest", "StyledComponents", "Jenkins", "Jest"]
     }
@@ -58,7 +58,7 @@
     "model": "myapp.projectcard",
     "pk": 4,
     "fields": {
-      "demoUrl": "https://devdavidg.github.io/Portfolio/",
+      "demoUrl": "https://dev-davidg.web.app/",
       "github": "",
       "title": "Portfolio",
       "gif": "https://i.imgur.com/tN0RJAq.mp4",
@@ -162,6 +162,19 @@
       "icons": ["Figma"],
       "cardLang": ["Figma"],
       "isDesign": true
+    }
+  },
+  {
+    "model": "myapp.projectcard",
+    "pk": 12,
+    "fields": {
+      "demoUrl": "https://sphere-app.vercel.app/",
+      "github": "",
+      "title": "Sphere With Physics",
+      "gif": "https://i.imgur.com/ugVaIo0.mp4",
+      "description": "Sphere With Physics is a sphere that has physics",
+      "icons": ["React", "TS", "CSS"],
+      "cardLang": ["React", "TS", "CSS"]
     }
   }
 ]
