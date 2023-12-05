@@ -71,7 +71,7 @@
     "model": "myapp.projectcard",
     "pk": 5,
     "fields": {
-      "demoUrl": "",
+      "demoUrl": "https://www.skyblueanalytics.com/",
       "github": "",
       "title": "SkyBlue Analytics",
       "gif": "https://i.imgur.com/VX1GdTz.mp4",
