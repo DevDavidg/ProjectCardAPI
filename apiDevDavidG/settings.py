@@ -49,13 +49,13 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware'
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'apiDevDavidG.urls'
@@ -78,11 +78,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'apiDevDavidG.wsgi.application'
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3030',
-    'http://192.168.1.6:3030',
-    'https://david-g-dev.vercel.app'
-]
+# Se permite temporalmente el acceso desde cualquier origen para pruebas.
+# Una vez verificado, elimina la siguiente línea y descomenta la lista de abajo.
+CORS_ALLOW_ALL_ORIGINS = True
+
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3030',
+#     'http://192.168.1.6:3030',
+#     'https://david-g-dev.vercel.app'
+# ]
 
 
 
